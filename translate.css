@@ -1,0 +1,22 @@
+ /* Logo gizleme */
+ #google_translate_element .goog-te-gadget-icon {
+    display: none;
+}
+
+
+#google_translate_element .goog-te-gadget-simple {
+    background-color:#565656;
+    border: none !important;
+    
+    
+    
+    
+    
+}
+
+
+#google_translate_element .goog-te-gadget-simple .goog-te-menu-value,
+#google_translate_element .goog-te-gadget-simple a {
+    color: #ffffff;
+}
+

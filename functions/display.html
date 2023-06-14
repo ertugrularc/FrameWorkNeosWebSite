@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+
+    <link rel="stylesheet" href="../sidebar/sidebar.css">
+    <link rel="stylesheet" href="../loader.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../translate.css">
+
+
+    
+
+</head>
+<body>
+    <div class="wrapper">
+   <!-- Sidebar  -->
+   <div class="slide-container">
+    <nav class="" id="sidebar">
+    
+        <div class="sidebar-header h-15">
+           <div class="neos-logo w-84">
+            <a  href="../index.html">
+            
+                <img src="../neolabs150.svg" alt="NeoLabsLogo" title="NeoLabsLogo">
+            
+            </a>
+           </div>
+            
+            
+        </div>
+        <div style="position: relative;">
+                    <div id="google_translate_element" style="position: relative;"></div>
+                </div>
+        <hr style="height: 3px; border-color: gray;">
+
+        <ul class="list-unstyled components-list">
+            <li>
+              <li>
+                <a href="../index.html">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+              </li>
+              <!-- CUSTOMİZE -->
+
+               <li class="companents">
+                    <a href="../customize/color.html">
+                        <i class="fas fa-image"></i>
+                                Customize
+                     </a>
+                <ul class="list-content">
+                    <li>
+                        <a href="../customize/color.html">Color</a>
+                    </li>
+                   
+                </ul>    
+               </li>
+               <!-- LAYOUT -->
+               <li class="companents">
+                    <a href="">
+                        <i class="fa-solid fa-fan m-0 p-0"></i>
+                                Layout
+                     </a>
+                <ul class="list-content">
+                    <li>
+                        <a href="../layout/container.html">Containers</a>
+                    </li>
+                    <li>
+                        <a href="../layout/grid.html">Grid</a>
+                    </li>
+                    
+                    
+                </ul>    
+               </li>
+               <!-- FORMS -->
+               <li class="companents">
+                <a href="#">
+                    <i class="fa-solid fa-list  m-0 p-0"></i>
+                            Forms
+                 </a>
+            <ul class="list-content">
+                <li>
+                    <a href="../forms/select.html">Select</a>
+                </li>
+                <li>
+                    <a href="../forms/checks_radios.html">Checks & radios</a>
+                </li>
+                <li>
+                    <a href="../forms/input_group.html">Input group</a>
+                </li>
+                <li>
+                    <a href="../forms/register_login.html">Register-Login</a>
+                </li>
+            </ul>    
+           </li>
+                 <!-- COMPANENTS -->
+                <li class="companents">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                        <i class="fas fa-briefcase"></i>
+                        
+                        Companents
+                    </a>
+                    <ul class="list-content">
+                        <li>
+                            <a href="../companents/buttons.html">Buttons</a>
+                        </li>
+                        <li>
+                            <a href="../companents/button_hover.html">Buttons hover</a>
+                        </li>
+                        
+                        <li>
+                            <a href="../companents/card.html">Card</a>
+                        </li>
+                        <li>
+                            <a href="../companents/carousel.html">Carousel</a>
+                        </li>
+                        <li>
+                            <a href="../companents/dropdown.html">Dropdowns</a>
+                        </li>
+                        <li>
+                            <a href="../companents/navbar.html">Navbar</a>
+                        </li>
+                        <li>
+                            <a href="../companents/navbar_dropdown.html">Navbar-dropdown</a>
+                        </li>
+                       
+                       
+                    </ul>
+               
+                </li>
+                   
+
+               
+            </li>
+            <!-- Functions -->
+            <li class="companents">
+                <a href="#">
+                    <i class="fa-regular fa-clone"></i>
+                    
+                    Functions
+                </a>
+                <ul class="list-content">
+                   
+                    <li>
+                        <a href="../functions/border.html">Borders</a>
+                    </li>
+                    
+                    <li>
+                        <a class="active" href="../functions/display.html">Display</a>
+                    </li>
+                    
+                    <li>
+                        <a href="../functions/position.html">Position</a>
+                    </li>
+                    <li>
+                        <a href="../functions/sizing.html">Sizing</a>
+                    </li>
+                    <li>
+                        <a href="../functions/spacing.html">Spacing</a>
+                    </li>
+                    <li>
+                        <a href="../functions/text.html">Text</a>
+                    </li>
+            </li>
+            </ul>
+            
+            
+               
+               
+              
+            
+            <li>
+              
+                <a href="#">
+                    
+                    <i class="fa-solid fa-book m-0 p-0"></i>
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-question"></i>
+                   SSS
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-paper-plane"></i>
+                    Contact
+                </a>
+            </li>
+        </ul>
+
+    
+    
+</nav>
+</div>
+
+        <div class="content-container">
+            <div id="content">
+
+            
+                <!-- <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-neosblue">
+                        
+                        <span><i class="fas fa-align-left"></i></span>
+                    </button>
+                
+
+                </div>
+            -->
+
+                <div class="main">
+                    <h1 class="text-neosblue mt-5">DISPLAY</h1>
+                    <p class="fw-ligt mt-3 fs-6"> 
+                        Ekran yardımcı programları sayesinde bileşenlerin ekran değerleri hızlı ve hassas bir şekilde değiştirilebilir. Bu yardımcı programlar, yazdırma işlemi sırasında ekran kontrolü için gerekli bazı ekstraları da içerir. Ayrıca, sık kullanılan bazı değerlerin değiştirilmesini kolaylaştıran destek sunarlar. Bu kısımda da bizlere kolaylık sağlayan display özelliklerini kolay kullanımı için kısaltmalarını görmekteyiz.</p>
+                        <h2 class="mt-5 fs-2 fw-bold w-100 text-neosblue ">Display Örnekleri</h2>
+
+
+                    <div class="main-item">
+                        <div class="main-title">
+                            <h2 class="mt-5 w-100 text-neosblue ">.d-flex</h2>
+                            <p class="fw-ligt mt-3 fs-6"> 
+                                Bu özellik, bir elementin içindeki diğer elementleri esnek bir şekilde yerleştirmek için kullanılır. Flexbox düzeni, bir elementin içindeki diğer elementlerin hizalamasını, boyutunu ve düzenini kontrol etmek için kullanılır.</p>
+
+                        </div>
+                        <div class="main-border">
+                            <div class="main-bottom position-relative ">
+                                <div class="d-flex p-2 text-white bg-black">d-flex</div>
+                                <div class="d-flex p-2 text-white bg-gray">d-flex</div>
+                                <div class="d-flex p-2 text-white bg-neosblue">d-flex</div>
+                            </div>
+                           <div class="kapsayici">
+                            <pre class=" main-code fs-5 p-2">
+                                <code >
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-flex p-2 text-white bg-black"</span><span class="mark">&gt;</span>d-flex<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span> 
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-flex p-2 text-white bg-gray"</span><span class="mark">&gt;</span>d-flex<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-flex p-2 text-white bg-neosblue"</span><span class="mark">&gt;</span>d-flex<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+                            </code>
+                              </pre>
+                              <div class="main-html d-flex pt-2 p-2 ">
+                                <p class="text-black fs-6 fw-normal mt-2 ">HTML</p>
+                            <div class="d-flex ms-auto">
+                                <button type="button" class="p-1">
+                                    <i class="fa-solid fa-copy "></i>
+                                </button>
+                            </div>
+                                
+                            </div>
+                           </div>
+                        </div>
+
+                    </div>
+                </div>
+
+<!-- d-inline-flex özellikleri -->
+                <div class="main">
+                    <div class="main-item">
+                        <div class="main-title">
+                            <h2 class="m-0 d-inline-block pt-5 text-neosblue">.d-inline-flex</h2>
+                            <p class="fw-ligt mt-3 fs-6"> 
+                                Bir elementin flex özelliklerine sahip olmasına rağmen, diğer inline elementlerle yan yana yer almasını sağlar.</p>
+                            
+                        </div>
+                        <div class="main-border">
+                            <div class="main-bottom position-relative ">
+                            <div class="d-inline-flex p-2 text-white bg-black ">d-inline-flex</div>
+                            <div class="d-inline-flex p-2 text-white bg-gray">d-inline-flex</div>
+                            <div class="d-inline-flex  p-2 text-white bg-neosblue">d-inline-flex</div>
+                            </div>
+                            </div>
+                            <div class="kapsayici">
+                                <pre class=" main-code fs-5 p-2">
+                                    <code>   
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-inline-flex p-2 text-white bg-black"</span><span class="mark">&gt;</span>d-inline-flex<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span> 
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-inline-flex p-2 text-white bg-gray"</span><span class="mark">&gt;</span>d-inline-flex<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-inline-flex p-2 text-white bg-neosblue"</span><span class="mark">&gt;</span>d-inline-flex<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+                                </code>
+                                  </pre>
+                                  <div class="main-html d-flex pt-2 p-2 ">
+                                    <p class="text-black fs-6 fw-normal mt-2 ">HTML</p>
+                                <div class="d-flex ms-auto">
+                                    <button type="button" class="p-1">
+                                        <i class="fa-solid fa-copy "></i>
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+<!-- d-grid özellikleri -->
+                <div class="main">
+                    <div class="main-item">
+                        <div class="main-title">
+                            <h2 class="m-0 d-inline-block pt-5 text-neosblue">.d-grid</h2>
+                            <p class="fw-ligt mt-3 fs-6"> 
+                                Bir elementin içindeki diğer elementleri bir ızgara düzeninde yerleştirmek için kullanılır. Grid düzeni, bir elementin içindeki diğer elementlerin hizalamasını, boyutunu ve düzenini kontrol etmek için kullanılır.</p>
+                            
+                        </div>
+                        <div class="main-border">
+                            <div class="main-bottom position-relative ">
+                                    <div class="d-grid p-2 text-white bg-black">d-grid</div>
+                                    <div class="d-grid p-2 text-white bg-gray">d-grid</div>
+                                    <div class="d-grid p-2 text-white bg-neosblue">d-grid</div>
+
+                            </div>
+                          <div class="kapsayici">
+                            <pre class=" main-code fs-5 p-2">
+                                <code >
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-grid p-2 text-white bg-black"</span><span class="mark">&gt;</span>d-grid<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span> 
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-grid p-2 text-white bg-gray"</span><span class="mark">&gt;</span>d-grid<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-grid p-2 text-white bg-neosblue"</span><span class="mark">&gt;</span>d-grid<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+                            </code>
+                              </pre>
+                              <div class="main-html d-flex pt-2 p-2 ">
+                                <p class="text-black fs-6 fw-normal mt-2 ">HTML</p>
+                            <div class="d-flex ms-auto">
+                                <button type="button" class="p-1">
+                                    <i class="fa-solid fa-copy "></i>
+                                </button>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- d-none özellikleri -->
+                <div class="main">
+                    <div class="main-item">
+                        <div class="main-title">
+                            <h2 class="m-0 d-inline-block pt-5 text-neosblue">.d-none</h2>
+                            <p class="fw-ligt mt-3 fs-6"> 
+                                Bir elementin hiçbir şekilde görüntülenmemesini sağlar. Bu, bir elementin HTML kodunda mevcut olmasına rağmen, CSS ile tamamen gizlenmesini sağlar.</p>
+
+                        </div>
+                        <div class="main-border">
+                            <div class="main-bottom position-relative ">
+                               
+                                    <div class="d-none p-2 text-white bg-black">d-none</div>
+                                    <div class="d-none p-2 text-white bg-gray">d-none</div>
+                                    <div class="d-none p-2 text-white bg-neosblue">d-none</div>
+                            
+
+                            </div>
+                            <div class="kapsayici">
+                                <pre class=" main-code fs-5 p-2">
+                                    <code >
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-none p-2 text-white bg-black"</span><span class="mark">&gt;</span>d-none<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span> 
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-none p-2 text-white bg-gray"</span><span class="mark">&gt;</span>d-none<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-none p-2 text-white bg-neosblue"</span><span class="mark">&gt;</span>d-none<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+                                </code>
+                                  </pre>
+                                  <div class="main-html d-flex pt-2 p-2 ">
+                                    <p class="text-black fs-6 fw-normal mt-2 ">HTML</p>
+                                <div class="d-flex ms-auto">
+                                    <button type="button" class="p-1">
+                                        <i class="fa-solid fa-copy "></i>
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+<!-- d-inline özellikleri -->
+                <div class="main">
+                    <div class="main-item">
+                        <div class="main-title">
+                            <h2 class="m-0 d-inline-block pt-5 text-neosblue">.d-inline</h2>
+                            <p class="fw-ligt mt-3 fs-6"> 
+                                Bir elementin diğer inline elementlerle aynı satırda yer almasını sağlar. Bu özellik, elementin sol ve sağ tarafında boşluk bırakmaz ve içeriğiyle sınırlı bir alan kaplar.</p>
+                        </div>
+                        <div class="main-border">
+                            <div class="main-bottom position-relative ">
+                            <div class="d-inline p-2 text-white bg-black">d-inline</div>
+                            <div class="d-inline p-2 text-white bg-gray">d-inline</div>
+                            <div class="d-inline p-2 text-white bg-neosblue">d-inline</div>
+                            </div>
+                           <div class="kapsayici">
+                            <pre class=" main-code fs-5 p-2">
+                                <code >
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-inline p-2 text-white bg-black"</span><span class="mark">&gt;</span>d-inline<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span> 
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-inline p-2 text-white bg-gray"</span><span class="mark">&gt;</span>d-inline<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-inline p-2 text-white bg-neosblue"</span><span class="mark">&gt;</span>d-inline<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+                            </code>
+                              </pre>
+                              <div class="main-html d-flex pt-2 p-2 ">
+                                <p class="text-black fs-6 fw-normal mt-2 ">HTML</p>
+                            <div class="d-flex ms-auto">
+                                <button type="button" class="p-1">
+                                    <i class="fa-solid fa-copy "></i>
+                                </button>
+                            </div>
+                            </div>
+                           </div>
+                        </div>
+
+                    </div>
+                </div>
+<!-- d-inline-block özellikleri -->
+                <div class="main">
+                    <div class="main-item">
+                        <div class="main-title">
+                            <h2 class="m-0 d-inline-block pt-5 text-neosblue">.d-inline-block</h2>
+                            <p class="fw-ligt mt-3 fs-6"> 
+                                Bir elementin blok özelliklerine sahip olmasına rağmen, diğer inline elementlerle yan yana yer almasını sağlar.</p>
+
+                        </div>
+                        <div class="main-border">
+                            <div class="main-bottom position-relative ">
+                            <div class="d-inline-block p-2 text-white bg-black">d-inline-block</div>
+                            <div class="d-inline-block p-2 text-white bg-gray">d-inline-block</div>
+                            <div class="d-inline-block p-2 text-white bg-neosblue">d-inline-block</div>
+                    
+                            </div>
+                           <div class="kapsayici">
+                            <pre class=" main-code fs-5 p-2">
+                                <code >
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-inline-block p-2 text-white bg-black"</span><span class="mark">&gt;</span>d-inline-block<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span> 
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-inline-block p-2 text-white bg-gray"</span><span class="mark">&gt;</span>d-inline-block<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+<span class="mark">&lt;</span><span class="ticket">div class=</span><span class="attr">"d-inline-block p-2 text-white bg-neosblue"</span><span class="mark">&gt;</span>d-inline-block<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">div</span><span class="mark">&gt;</span>
+                            </code>
+                              </pre>
+                              <div class="main-html d-flex pt-2 p-2 ">
+                                <p class="text-black fs-6 fw-normal mt-2 ">HTML</p>
+                            <div class="d-flex ms-auto">
+                                <button type="button" class="p-1">
+                                    <i class="fa-solid fa-copy "></i>
+                                </button>
+                            </div>
+                            </div>
+                           </div>
+                        </div>
+
+                    </div>
+                </div>
+
+<!-- d-block özellikleri -->
+                <div class="main">
+                    <div class="main-item">
+                        <div class="main-title">
+                            <h2 class="m-0 d-inline-block pt-5 text-neosblue">.d-block</h2>
+                            <p class="fw-ligt mt-3 fs-6"> 
+                                Bir elementin bir satır boyunca tüm genişliği kaplayarak, diğer elementlerin altında veya üstünde bir satır başlatmasını sağlar.</p>
+
+                        </div>
+                        <div class="main-border">
+                            <div class="main-bottom position-relative ">
+                            <span class="d-block p-2 text-white bg-black">d-block</span>
+                            <span class="d-block p-2 text-white bg-gray">d-block</span>
+                            <span class="d-block p-2 text-white bg-neosblue">d-block</span>
+                    
+                            </div>
+                           <div class="kapsayici">
+                            <pre class=" main-code fs-5 p-2">
+                                <code >
+<span class="mark">&lt;</span><span class="ticket">span class=</span><span class="attr">"d-block p-2 text-white bg-black"</span><span class="mark">&gt;</span>d-block<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">span</span><span class="mark">&gt;</span> 
+<span class="mark">&lt;</span><span class="ticket">span class=</span><span class="attr">"d-block p-2 text-white bg-gray"</span><span class="mark">&gt;</span>d-block<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">span</span><span class="mark">&gt;</span>
+<span class="mark">&lt;</span><span class="ticket">span class=</span><span class="attr">"d-block p-2 text-white bg-neosblue"</span><span class="mark">&gt;</span>d-block<span class="mark">&lt;</span><span class="mark">/</span><span class="ticket">span</span><span class="mark">&gt;</span>
+                            </code>
+                              </pre>
+                              <div class="main-html d-flex pt-2 p-2 ">
+                                <p class="text-black fs-6 fw-normal mt-2 ">HTML</p>
+                            <div class="d-flex ms-auto">
+                                <button type="button" class="p-1">
+                                    <i class="fa-solid fa-copy "></i>
+                                </button>
+                            </div>
+                            </div>
+                           </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+        </div>
+        </div>
+
+        <!--? İÇERİK KISMI  -->
+    </div>
+
+       
+    </div>
+
+    <script src="../sidebar/sidebar.js"></script>
+    <script src="../script.js"></script>
+    <script src="../translate.js"></script>
+</body>
+</html>

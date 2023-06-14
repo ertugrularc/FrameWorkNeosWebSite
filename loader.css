@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .n-harfi {
+    font-size: 50px;
+    color: #218cd9;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffffa2;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .spinner {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    animation: rotate 1s infinite linear;
+  }
+
+  .spinner .n-harfi {
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    color: #218cd9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
